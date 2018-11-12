@@ -1,0 +1,52 @@
+/* CSS Document */
+
+.slideshow {
+	position: relative;
+	width:100%;
+	
+	background-color: #DDD;
+	
+	overflow: hidden;
+}
+
+.slideshow img {
+	padding: 0px !important;
+	margin: 0px!important;
+	border: none !important;
+}
+
+.slideshow_slide {
+	position:relative;	
+	width: auto;	
+	max-width: 100%;
+	float: left;
+	text-align: center;
+}
+
+.slideshow_slide_didascalia {
+  	background: rgba(0,0,0,0.5);
+	padding: 5px;
+	height: 15px;
+	width: 100%;	
+	overflow: hidden;
+	text-align: left;
+	/*z-index: 1;*/
+	position: relative;	
+	font-size: 11px;
+	color: #fff;
+	text-align: left;	
+}
+
+.slideshow_sposta_indietro {	
+	width: 32px;	
+	position: absolute;
+	top: 50%;
+	z-index: 1;
+}
+.slideshow_sposta_avanti {
+	width: 32px;	
+	position: absolute;
+	top: 50%;
+	right: 0;
+	z-index: 1;
+}

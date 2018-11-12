@@ -1,0 +1,9 @@
+/* CSS Document */
+
+@media all and (max-width: 799px) {
+	div[id^='scorrimento'] .tab03-riga:nth-child(1) .tab03:nth-child(1n+2) {
+		visibility: hidden;
+		display: none;
+	}
+	
+}
